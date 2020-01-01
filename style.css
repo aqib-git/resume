@@ -1,0 +1,64 @@
+/* Typography */
+
+/* Main */
+main {
+    max-width: 1140px;
+    margin: auto;
+}
+
+/* Header */
+header {
+    border-bottom: 2px solid black;
+}
+
+/* Contact */
+#contact {
+    display: flex;
+}
+
+#contact > div {
+    flex: 1;
+}
+
+#contact > div:first-child {
+    flex-basis: 30%;
+}
+
+#contact > div:last-child {
+    flex-basis: 70%;
+}
+
+#contact > div:last-child ul {
+    column-count: 2;
+    list-style-type: none;
+}
+
+#contact > div:last-child ul > li {
+    margin-bottom: 10px;
+}
+
+/* Experience */
+.experience__header {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Education */
+.education__header {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Common */
+section {
+    padding: 15px 0;
+}
+
+.section-title {
+    display: inline-block;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
