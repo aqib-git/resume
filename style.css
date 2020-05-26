@@ -49,6 +49,16 @@ header {
     justify-content: space-between;
 }
 
+/* Projects */
+.projects a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.projects__item {
+    margin-bottom: 30px;
+}
+
 /* Common */
 section {
     padding: 15px 0;
